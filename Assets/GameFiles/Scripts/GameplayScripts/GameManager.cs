@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("UserLevel", 0);
         }
-        else if (PlayerPrefs.GetInt("UserLevel") > 3)
+        else if (PlayerPrefs.GetInt("UserLevel") > 2)
         {
             ForceRandomizeGrid = true;
         }
